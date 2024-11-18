@@ -9,7 +9,7 @@ const About = () => {
       <h1 className='mb-5 font-extrabold text-4xl'>About Me</h1>
       <p className="leading-relaxed text-lg text-left">
       Hi there! 👋<br />
-I'm a passionate <span className='font-bold'>Frontend Developer</span> with a growing expertise in modern web technologies. My journey started with the basics of <span className='font-bold'>HTML</span> and <span className='font-bold'>CSS</span>, and over time, I've dived into advanced frameworks and tools to craft engaging and responsive web experiences. <br />
+Im a passionate <span className='font-bold'>Frontend Developer</span> with a growing expertise in modern web technologies. My journey started with the basics of <span className='font-bold'>HTML</span> and <span className='font-bold'>CSS</span>, and over time, I've dived into advanced frameworks and tools to craft engaging and responsive web experiences. <br />
 
 <span className='font-bold'>My Tech Stack:</span> <br />
 <span className='font-bold'>HTML & CSS:</span> The foundation of every stunning web page I build. <br /><br />
@@ -18,7 +18,7 @@ I'm a passionate <span className='font-bold'>Frontend Developer</span> with a gr
 <span className='font-bold'>React:</span> Creating interactive and dynamic user interfaces that leave an impression. <br /><br />
 <span className='font-bold'>Tailwind CSS:</span> Designing beautiful and consistent layouts with utility-first CSS. <br /><br />
 
-Let’s connect and create something amazing together! 🌟
+Lets connect and create something amazing together! 🌟
       </p>
     </div>
   </div>

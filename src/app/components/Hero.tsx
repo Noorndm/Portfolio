@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 import Typewriter from 'typewriter-effect';
@@ -9,8 +10,10 @@ const Hero = () => {
       <section className="text-gray-600 body-font mx-auto bg-gray-200">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <img
+      <Image
         className="object-cover object-center rounded"
+        width={1000}
+        height={1000}
         alt="hero"
         src="/assets/picture/profilepic1.png"
       />

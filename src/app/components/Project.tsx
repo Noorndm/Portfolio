@@ -18,9 +18,11 @@ const Project = () => {
             {/* Project Card 1 */}
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="relative">
-                <img
+                <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
+                  width={1000}
+                  height={800}
                   src='/assets/project/registrationform.jpg'
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
@@ -31,7 +33,7 @@ const Project = () => {
                     Registration Form
                   </h1>
                   <p className="leading-relaxed">
-                    It's a simple registration form that I created to collect data for the university.
+                    Its a simple registration form that I created to collect data for the university.
                   </p>
                   <Link target='_blank' href={'https://registration-form-noorndm.vercel.app/'}>
                   <p className="leading-relaxed text-blue-700 hover:text-blue-400 cursor-pointer">View Project</p></Link>
@@ -42,8 +44,10 @@ const Project = () => {
             {/* Project Card 2 */}
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="relative">
-                <img
+                <Image
                   alt="gallery"
+                  width={1000}
+                  height={800}
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src='/assets/project/project-4.png'
                 />
@@ -67,8 +71,10 @@ const Project = () => {
             {/* Project Card 3  */}
            <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="relative">
-                <img
+                <Image
                   alt="gallery"
+                  width={1000}
+                  height={800}
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src='/assets/project/registrationform.jpg'
                 />
@@ -80,7 +86,7 @@ const Project = () => {
                     Registration Form
                   </h1>
                   <p className="leading-relaxed">
-                    It's a simple registration form that I created to collect data for the university.
+                    Its a simple registration form that I created to collect data for the university.
                   </p>
                   <p className="leading-relaxed text-blue-700 hover:text-blue-400 cursor-pointer">View Project</p>
                 </div>
